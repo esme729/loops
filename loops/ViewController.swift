@@ -23,7 +23,12 @@ class ViewController: UIViewController {
         
         var fruit = ["apple","pear","p[peach","strawberry"]
         
+var output = ""
         
+for i in fruit{
+            output += "\(i)\n"
+        }
+        idk.text = output
     }
     
     @IBAction func button2(_ sender: Any) {
